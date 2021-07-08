@@ -1,4 +1,4 @@
-1.) Deploy a keycloak instance in a docker container with TF OSS
+1.) Deploy a keycloak instance in a docker container with TF.
 
 2.) Use the keycloak provider to push your configuration for the OpenLDAP federation into keycloak. All example values, adjust as needed.
 
