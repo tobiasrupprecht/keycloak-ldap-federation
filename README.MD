@@ -10,3 +10,7 @@ https://registry.terraform.io/providers/kreuzwerker/docker/latest/docs
 
 Keycloak:
 https://registry.terraform.io/providers/mrparkers/keycloak/latest/docs
+
+
+Some additional info on how to configure LDAP federation in Keycloak:
+https://documentation.abas.cloud/en/abas-keycloak/setup-user-federation-ldap.html
