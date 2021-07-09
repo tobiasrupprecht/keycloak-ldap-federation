@@ -11,6 +11,7 @@ resource "docker_image" "keycloak" {
   keep_locally = false
 }
 
+## Please make secure for production!
 resource "docker_container" "keycloak" {
   image = docker_image.keycloak.name
   name  = "LDAP-SAML-Federation"
