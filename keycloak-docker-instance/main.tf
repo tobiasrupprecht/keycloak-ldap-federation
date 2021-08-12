@@ -14,7 +14,7 @@ resource "docker_image" "keycloak" {
 ## Please make secure for production!
 resource "docker_container" "keycloak" {
   image = docker_image.keycloak.name
-  name  = "LDAP-SAML-Federation"
+  name  = "SAML-for-TFE"
   ports {
     internal = 8080
     external = 8089
